@@ -248,103 +248,112 @@
     
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
+    <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+  </div><!-- End Section Title -->
 
-      <div class="container">
+  <div class="container">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">Projects</li>
-          </ul><!-- End Portfolio Filters -->
+      <!-- Updated Filters -->
+      <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All</li>
+        <li data-filter=".filter-competences">Compétences interpersonnelles</li>
+        <li data-filter=".filter-responsabilite">Responsabilité</li>
+        <li data-filter=".filter-sql">SQL</li>
+      </ul><!-- End Portfolio Filters -->
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+      <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/artconnect.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>ArtConnect</h4>
-                  <p>Platform connecting artists and galleries with augmented reality artwork displays.</p>
-                  <a href="assets/img/portfolio/artconnect.jpg" title="ArtConnect" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <!-- Project assigned to "Compétences interpersonnelles" filter -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-competences">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/artconnect.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>ArtConnect</h4>
+              <p>Platform connecting artists and galleries with augmented reality artwork displays.</p>
+              <a href="assets/img/portfolio/artconnect.jpg" title="ArtConnect" data-gallery="portfolio-gallery-competences" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/ecomarket.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>EcoMarket</h4>
-                  <p>Marketplace for trading or selling recycled products with ecological tracking.</p>
-                  <a href="assets/img/portfolio/ecomarket.png" title="EcoMarket" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="ecomarket.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <!-- Project assigned to "Responsabilité" filter -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-responsabilite">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/ecomarket.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>EcoMarket</h4>
+              <p>Marketplace for trading or selling recycled products with ecological tracking.</p>
+              <a href="assets/img/portfolio/ecomarket.png" title="EcoMarket" data-gallery="portfolio-gallery-responsabilite" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="ecomarket.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/gameforge.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>GameForge</h4>
-                  <p>Collaborative platform to create 2D mini-games directly online.</p>
-                  <a href="assets/img/portfolio/gameforge.jpg" title="GameForge" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="gameforge.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+        <!-- Project assigned to "SQL" filter -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sql">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/gameforge.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>GameForge</h4>
+              <p>Collaborative platform to create 2D mini-games directly online.</p>
+              <a href="assets/img/portfolio/gameforge.jpg" title="GameForge" data-gallery="portfolio-gallery-sql" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="gameforge.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+        </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/wellnessloop.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>WellnessLoop</h4>
-                  <p>Social network focused on mental wellness with meditations and forums.</p>
-                  <a href="assets/img/portfolio/wellnessloop.png" title="WellnessLoop" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="wellnessloop.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/alacarte.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Chef à la Carte</h4>
-                  <p>Book private chefs based on culinary preferences and location.</p>
-                  <a href="assets/img/portfolio/alacarte.png" title="Chef à la Carte" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="chef_à_la_carte.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/sphere.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>CultureSphere</h4>
-                  <p>Interactive portal to explore global cultures with videos and quizzes.</p>
-                  <a href="assets/img/portfolio/sphere.jpg" title="CultureSphere" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="culturesphere.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-
-          </div><!-- End Portfolio Container -->
-
+        <!-- Other projects with their respective filters -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-competences">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/wellnessloop.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>WellnessLoop</h4>
+              <p>Social network focused on mental wellness with meditations and forums.</p>
+              <a href="assets/img/portfolio/wellnessloop.png" title="WellnessLoop" data-gallery="portfolio-gallery-competences" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="wellnessloop.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
         </div>
 
-      </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-responsabilite">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/alacarte.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Chef à la Carte</h4>
+              <p>Book private chefs based on culinary preferences and location.</p>
+              <a href="assets/img/portfolio/alacarte.png" title="Chef à la Carte" data-gallery="portfolio-gallery-responsabilite" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="chef_à_la_carte.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+        </div>
 
-    </section><!-- /Portfolio Section -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-competences">
+          <div class="portfolio-content h-100">
+            <img src="assets/img/portfolio/sphere.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>CultureSphere</h4>
+              <p>Interactive portal to explore global cultures with videos and quizzes.</p>
+              <a href="assets/img/portfolio/sphere.jpg" title="CultureSphere" data-gallery="portfolio-gallery-competences" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+              <a href="culturesphere.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- End Portfolio Container -->
+
+    </div>
+
+  </div>
+
+</section><!-- End Portfolio Section -->
+
 
     <!-- Services Section -->
     <section id="services" class="services section">
